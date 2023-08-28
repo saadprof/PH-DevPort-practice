@@ -125,6 +125,8 @@
     max-width: 1040px;
     margin: 0 auto;
 }
+
+/* About me section styles */
 .about-me{
     margin: 80px 0px;
     padding: 130px 150px;
@@ -157,4 +159,52 @@
     font-size: 20px;
     font-weight: 700;
     color: #474747;
+}
+
+
+/* What I do part styles */
+.whatIdo{
+    text-align: center;
+    width: 900px;
+    margin: 0 auto;
+}
+.whatIdo-tittle{
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+.whatIdo-desc{
+    margin: 20px 0px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #757575;
+}
+
+/* Technologies part styles */
+.technologies{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.tech-card{
+    margin-right: 20px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.tech-card:last-child{
+    margin-right: 0px;
+}
+.card-tittle{
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #181818;
+}
+.card-desc{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #757575;
 }
