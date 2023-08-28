@@ -118,3 +118,43 @@
 .header-banner-image{
     width: 500px;
 }
+
+
+/* Main section styles starts from here */
+#main{
+    max-width: 1040px;
+    margin: 0 auto;
+}
+.about-me{
+    margin: 80px 0px;
+    padding: 130px 150px;
+    text-align: center;
+    background-color: #FFF8F3;
+}
+.about-me .about-tittle{
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+.about-me .about-desc{
+    margin: 20px 0px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+}
+.my-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.details-tittle{
+    font-size: 20px;
+    font-weight: 400;
+    color: #757575;
+}
+.details-desc{
+    font-size: 20px;
+    font-weight: 700;
+    color: #474747;
+}
