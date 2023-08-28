@@ -208,3 +208,52 @@
     line-height: 28px;
     color: #757575;
 }
+
+/* Resume section styles */
+.resume{
+    margin: 100px 0px;
+}
+.resume-tittle{
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+.edu-exp{
+    display: flex;
+    align-items: center;
+}
+.edu-part{
+    margin-right: 30px;
+}
+.education-tittle, .experience-tittle{
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+}
+.edu-degree, .exp-role{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+}
+.edu-uni, .exp-industry{
+    margin: 10px 0 20px 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+}
+.edu-desc, .exp-desc{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+}
+hr{
+    margin: 30px 0px;
+}
+#cv-btn{
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+}
