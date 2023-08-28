@@ -1,0 +1,60 @@
+/* Pre styles for site */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Primary button styles */
+.primary-btn{
+    padding: 10px 30px;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    cursor: pointer;
+
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    
+    font-weight: 700;
+    font-size: 20px;
+    transition: 0.3s all ease;
+}
+.primary-btn:hover{
+    border: 1px solid #FD6E0A;
+    background-color: #ffede0;
+    color: #FD6E0A;
+}
+
+
+
+/* Header styles */
+#header{
+    background-color: #FFF8F3;
+}
+.header-logo{
+    font-weight: 800;
+    font-size: 45px;
+}
+.header-logo a{
+    text-decoration: none;
+    color: #181818;
+}
+/* Nav styles */
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav ul{
+    display: flex;
+    align-items: center;
+}
+#nav li{
+    list-style-type: none;
+    margin-right: 15px;
+}
+#nav a{
+    text-decoration: none;
+    color: #474747;
+    padding: 10px 15px;
+}
