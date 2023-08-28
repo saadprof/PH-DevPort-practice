@@ -261,7 +261,7 @@ hr{
 /* Footer part */
 #footer{
     background-color: #FFF8F3;
-    padding: 50px 100px;
+    padding: 100px;
 
     display: flex;
     justify-content: space-between;
